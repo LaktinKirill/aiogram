@@ -34,7 +34,7 @@ async def get_weather(message: types.Message):
             f" Скорость ветра: {wind_speed} м/с"
         )
         
-        # Отправляем сообщение
+       
         await message.answer(weather_message)
         
     except Exception as e:
